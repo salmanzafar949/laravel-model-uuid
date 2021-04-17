@@ -1,0 +1,50 @@
+{
+    "name": "salmanzafar/laravel-model-uuid",
+    "description": "A Laravel UUID Package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Salman Zafar",
+            "email": "salmanzafar949@gmail.com"
+        }
+    ],
+    "keywords": [
+        "laravel",
+        "laravel5",
+        "laravel6",
+        "laravel7",
+        "laravel8",
+        "laravel-5",
+        "laravel-6",
+        "laravel-7",
+        "laravel-8",
+        "uuid",
+        "model uuid",
+        "php",
+        "php 7.0",
+        "php 7.1",
+        "php 7.2",
+        "php 7.3",
+        "php 7.4",
+        "php 8.0"
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.0 || ^7.1 || ^7.2 || ^7.3 || ^7.4 || ^8.0",
+        "laravel/framework": "^5.5 || ^6.0 || ^7.0 || ^8.0"
+    },
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Salman\\LaravelModelUUID\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Salman\\LaravelModelUUID\\LaravelModelUUIDServiceProvider"
+            ]
+        }
+    }
+}
