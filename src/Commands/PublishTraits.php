@@ -44,7 +44,5 @@ class PublishTraits extends Command
         {
             $this->info('All files have been published');
         }
-
-        $this->info('Failed to publish');
     }
 }
